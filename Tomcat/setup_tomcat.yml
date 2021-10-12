@@ -7,7 +7,6 @@
     - tomcat_vars.yml
 
   tasks:
-
     - name: install java
       yum:
         name: java-1.8*
